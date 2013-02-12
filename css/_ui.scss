@@ -1,0 +1,17 @@
+.button {
+  background: $sea-green;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 20px 80px;
+  border: 1px solid black;
+  @include box-shadow(inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4));
+  font: {
+    weight: bold;
+    size: 1.2em;
+  }
+  text-decoration: none;
+
+  &:hover {
+    background: darken($sea-green, 3%);
+  }
+}

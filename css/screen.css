@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: white;
+  font-family: "source-sans-pro", "helvetivca neue", arial, sans-serif; }
+
+@font-face {
+  font-family: 'MarkerfieldRegular';
+  src: url("markerfield-webfont.eot");
+  src: url("markerfield-webfont.eot?#iefix") format("embedded-opentype"), url("markerfield-webfont.woff") format("woff"), url("markerfield-webfont.ttf") format("truetype"), url("markerfield-webfont.svg#MarkerfieldRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.container {
+  *zoom: 1;
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+
+header {
+  background: #353535;
+  height: 300px; }
+  header .fixed-header {
+    *zoom: 1;
+    display: block;
+    display: block;
+    float: left;
+    margin-right: 1.78571%;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    header .fixed-header:before, header .fixed-header:after {
+      content: " ";
+      display: table; }
+    header .fixed-header:after {
+      clear: both; }
+    header .fixed-header:last-child {
+      margin-right: 0; }
+    header .fixed-header .logo {
+      display: block;
+      float: left;
+      margin-right: 1.78571%;
+      width: 49.10714%; }
+      header .fixed-header .logo:last-child {
+        margin-right: 0; }
+    header .fixed-header .buy-tickets {
+      display: block;
+      float: left;
+      margin-right: 1.78571%;
+      width: 49.10714%; }
+      header .fixed-header .buy-tickets:last-child {
+        margin-right: 0; }
+      header .fixed-header .buy-tickets .button {
+        float: right; }
+  header ul {
+    *zoom: 1;
+    display: block; }
+    header ul:before, header ul:after {
+      content: " ";
+      display: table; }
+    header ul:after {
+      clear: both; }
+    header ul li {
+      display: block;
+      float: left;
+      margin-right: 1.78571%;
+      width: 23.66071%; }
+      header ul li:last-child {
+        margin-right: 0; }
+
+.hero {
+  background: #18af90;
+  height: 520px; }
+
+.button {
+  background: #18af90;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 20px 80px;
+  border: 1px solid black;
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration: none; }
+  .button:hover {
+    background: #16a285; }
